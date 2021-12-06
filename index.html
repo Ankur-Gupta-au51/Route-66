@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="../github/css/style.css">
+    <link rel="stylesheet" href="../github/css/responsive-style.css">
+    <link rel="stylesheet" href="../github/js/main.js">
+    <title> Route 66 | Car Services | Car Repair</title>
+    <link rel="icon" href="C:\Users\Rohan\Desktop\Kunal-Kushwaha\Web-Devlopment\Car-Website\favicon.ico"
+        type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Design -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap ">
+            <!-- <div class="container"> -->
+            <a class="navbar-brand" href="#"><img src="../github/logo/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Bangalore
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Chennai</a>
+                            <a class="dropdown-item" href="#">Mumbai</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item" href="#">Delhi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Explore Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#story">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">AboutUs</a>
+                    </li>
+
+
+                </ul>
+                <li> <a href=""><button type="button" class="btn btn-danger btn-lg">Login</button></a></li>
+                </li>
+
+                <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+    </form> -->
+            </div>
+            <!-- </div> -->
+
+    </header>
+
+    <!-- Section 1 top -banner  -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Professional Car Repair Service In Mumbai & Bangalore </h1>
+                        <p>Choose your Repairs-Pick a Date, Time & Location -Sit Back & Relax
+                        </p>
+                        <div class="mt-4">
+                            <button class="main-btn btn-lg ">Book Now <i class="fas fa-shipping-fast ps-3"></i></button>
+                            <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Contact Us
+                                <i class="fas fa-address-book ps-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Section 2 Counter -->
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count1"></span> +
+                        </h2>
+                        <p>OIL CHANGES</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count2"></span> +
+                        </h2>
+                        <p>TRANSMISSION SERVICE</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count3"></span> +
+                        </h2>
+                        <p>A/C SERVICE</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2>
+                            <span id="count4"></span> +
+                        </h2>
+                        <p>REGULAR SERVICE</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- Section 3 about -->
+
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row-align-item-centre">
+                    <!-- 1st -->
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                        <div class="card border-0">
+                            <img src="../github/Image/8227.jpg" class="img-fluid" alt="image">
+                        </div>
+                    </div>
+                    <!-- 2nd -->
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>Experience The Best Car Service</h2>
+                        <p>Route-66 is a network of multi-brand car service centre's spread across multiple location
+                            across India. You can choose a wide variety of car services such as car repair, wheel car
+                            service, cashless
+                            insurance and much more.</p>
+                        <button class="main-btn mt-4"> Know More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container food-type">
+                <div class="row align-item-senter">
+                    <!-- 1st -->
+                    <div class="col-lg-5 col-md-5 text-sec mb-lg-0 mb-5">
+                        <h2>We car everything with best possible methods.</h2>
+                        <p>We have more than 30+ highly-equipped Route-66 car service centres present across various
+                            location.
+                            For your convenience, we offer complimentary doorstep pick-up and delivery in listed
+                            ciities.
+                        </p>
+                        <ul class="list-unstyled py-5">
+                            <li style="font-size: large;">Free Doorstep Pick-up and Drop</li>
+                            <li style="font-size: large;">Network Warranty on Car Service</li>
+                            <li style="font-size: large;">100% Genuine spare parts</li>
+                            <li style="font-size: large;">Upfront & Competitive pricing</li>
+
+                        </ul>
+                        <button class="main-btn mt-4">Contact Us</button>
+                    </div>
+                    <!-- 2nd -->
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="../github/Image/Image.jpg" alt="image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 Story -->
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content">
+                            <h2>Why Choose Route 66</h2>
+                            <p>We service all brand and models of cars from Maruti Suzuki, Honda, Hyundai, Skoda,
+                                Volkswagen, Isuze, Volvo etc, We have OEM special facility for luxury cars such BMW,
+                                Audi, Mercedes Benz.</p>
+                        </div>
+                        <button class="main-btn mt-3">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 5 Explore Services -->
+    <section id="explore-service ">
+        <div class="explore-service wrapper">
+            <div class="container">
+                <!-- 1st -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- 1st -->
+                        <div class="text-content text-centre">
+                            <h2>OIL CHANGES</h2>
+                            <p>Regularly changing your oil and filter will help the engine work its best.</p>
+
+                        </div>
+                        <!-- 2nd -->
+                        <div class="text-content text-centre">
+                            <h2>Regular Service</h2>
+                            <p>A well maintained transmission can save you from problems later in your vehicle's life.
+                            </p>
+
+                        </div>
+                        <!-- 3rd -->
+                        <div class="text-content text-centre">
+                            <h2>Brakes</h2>
+                            <p>Brake maintenance is crucial to keeping your vehicle operating safely.
+                            </p>
+
+                        </div>
+                        <!-- 4th -->
+                        <div class="text-content text-centre">
+                            <h2>TIRES & WHEELS</h2>
+                            <p>Regularly inspect and service your tires to prevent a blowout, a flat, or a costly
+                                accident.
+                            </p>
+
+                        </div>
+                        <!-- 5th -->
+                        <div class="text-content text-centre">
+                            <h2>A/C</h2>
+                            <p>Keep your car cool and increase your gas mileage with regular AC checks.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <section id="service">
+                    <div class="row pt-5">
+                        <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                            <div class="card">
+                                <img src="../github/Image/img06.jpg" alt="image" class="img-fluid">
+                                <div class="pt-3">
+                                    <h2>Regular Service</h2>
+                                    <p> Time 60 - 180 Minutes | Service: 1</p>
+                                    <span> &#8377 2999.00/- </span>
+                                    <button class="mt-4 main-btn"> Service</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 2nd -->
+                        <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                            <div class="card">
+                                <img src="../github/Image/img05.jpg" alt="image" class="img-fluid">
+                                <div class="pt-3">
+                                    <h2>Gold Service</h2>
+                                    <p> Time 60 - 180 Minutes | Service: 1</p>
+                                    <span> &#8377 4999.00/- </span>
+                                    <button class="mt-4 main-btn"> service</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3nd -->
+                        <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                            <div class="card">
+                                <img src="../github/Image/img04.jpg" alt="image" class="img-fluid">
+                                <div class="pt-3">
+                                    <h2>Platinum Service</h2>
+                                    <p> Time 0 - 120 Minutes | Service: 1</p>
+                                    <span> &#8377 6999.00/- </span>
+                                    <button class="mt-4 main-btn"> service</button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section 6 testimonial -->
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-centre pb-4">
+                    <h2>testimonial</h2>
+                    <div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-10 offset-lg-1">
+                                <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+
+                                            <h2>Tom</h2>
+                                            <p> Wow, I'm so happy with your service. You managed to exceed my
+                                                expectations! You guys are very
+                                                efficient and I will refer more people to your company!</p>
+
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="2000">
+
+                                            <h2>PITER</h2>
+                                            <p> I would just like to say thank you for your prompt and effective
+                                                service, for your friendly and
+                                                professional support staff! I will recommend your expert company to all
+                                                my friends.</p>
+
+                                        </div>
+                                        <div class="carousel-item">
+
+                                            <h2>Adam</h2>
+                                            <p> Thank you very much. I’m impressed with your service. I’ve already told
+                                                my friends about your company
+                                                and your quick response, thanks again!</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Section 7 Faq -->
+    <section id="faq">
+        <div class="faq wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2>Frequently Asked Question</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row pt-5">
+                    <!-- * -->
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Can I Book Service's online ?</h4>
+                        <p>Yes! Anyone can book service online | offline at your ease, and reciept of booking will send
+                            through your mail and also shown in booking section.</p>
+                    </div>
+                    <!-- 1st -->
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Expensive Oil Changes Are Here To Stay ?</h4>
+                        <p>Oil changes may be more expensive with the required 0W-20 weight oil compared to conventional
+                            oil, but only having to service the car once or twice a year keeps annual costs to nearly a
+                            wash.</p>
+                    </div>
+                    <!-- 2nd -->
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>What's Include In a TuneUp ?</h4>
+                        <p>Actually, there is no such thing as a tuneup in the traditional sense of replacing parts to
+                            bring the ignition and fuel systems up to specs for maximum performance and efficiency...
+                        </p>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Do You Really Need To Change Your Oil Every 3,000 MILES ?</h4>
+                        <p>No, you don't, according to every auto manufacturer we've talked to. The main advocates of
+                            the 3,000-mile oil change schedule are those who would profit by it...
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8 book-Service -->
+
+    <section id="book-service">
+        <div class="book-service">
+            <div class="container book-service-text">
+                <div class="row text-centre">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>Route 66. Feels like family for a change.</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="main-btn">More Deatails</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 9 News Letter -->
+    <section id="newsletter">
+        <div class="newsletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center pb-4">
+                            <h2>Hurry Up! Subscribe our newsletter and get 25% off</h2>
+                            <p>Limited time offer for this month. No credit card required.</p>
+                        </div>
+                        <form action="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input class="form-control" placeholder="Email Address here" name="email"
+                                        type="email">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 10 Footer -->
+    <footer id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a class="footer-link" href="">Register</a>
+                        <a class="footer-link" href="">Forum</a>
+                        <a class="footer-link" href="">Affiliate</a>
+                        <a class="footer-link" href="">FAQ</a>
+                        <div class="footer-social pt-4 text-centre">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-dribble"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="copy-right text-centre pt-5">
+                            <p class="text-light">
+                                @ 2021. Route 66. All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 
+    =======================================================================
+ -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Own js -->
+    <script
+        src="C:\Users\Rohan\Desktop\Kunal-Kushwaha\Web-Devlopment\Car-repair-Shop-template-master\github\js\main.js"></script>
+</body>
+<!-- 
+    ==========================================================================
+ -->
+
+</html>
